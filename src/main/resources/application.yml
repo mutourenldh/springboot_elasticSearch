@@ -1,10 +1,18 @@
+#spring:
+#  elasticsearch:
+#    jest:
+#      uris:
+#      - http://47.105.103.45:9201
+##SpringData ElasticSearch相关的配置 
+#  data:
+#    elasticsearch:
+#      cluster-name: elasticsearch
+#      cluster-nodes: 47.105.103.45:9301
+#邮件相关设置
 spring:
-  elasticsearch:
-    jest:
-      uris:
-      - http://47.105.103.45:9201
-#SpringData ElasticSearch相关的配置 
-  data:
-    elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: 47.105.103.45:9301
+  mail:
+    host: smtp.qq.com               #服务器地址
+    username: 861914994@qq.com
+    password: lvkqnygbgnslbchh
+    properties:
+      mail.smtp.ssl.enable: true    #开启SSL
