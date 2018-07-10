@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    jest:
+      uris:
+      - http://47.105.103.45:9201
+#SpringData ElasticSearch相关的配置 
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 47.105.103.45:9301
